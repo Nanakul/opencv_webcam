@@ -27,7 +27,7 @@ while True:
 
     # Display the frame
     cv2.imshow('Frame', image)
-    
+
     # if statement that essentially says, if 'q' is pressed, break.
     if cv2.waitKey(1) == ord('q'):
         break

@@ -2,7 +2,7 @@ from cv2 import cv2
 import numpy as np
 
 # Store image in variable
-img = cv2.imread('../Camera_Assets/soccer_practice.jpeg', 0)
+img = cv2.imread('Camera_Assets/soccer_practice.jpeg', 0)
 ball_img = cv2.imread('../Camera_Assets/ball.jpeg', 0)
 h, w = ball_img.shape
 

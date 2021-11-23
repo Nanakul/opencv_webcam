@@ -2,7 +2,7 @@ import random
 from cv2 import cv2
 
 # Create image variable
-img = cv2.imread('../Camera_Assets/7V.jpeg', -1)
+img = cv2.imread('Camera_Assets/7V.jpeg', -1)
 
 # for loop to manipulate pixels in the image
 for i in range(100):

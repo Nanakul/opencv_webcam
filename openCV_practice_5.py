@@ -2,7 +2,7 @@ import numpy as np
 from cv2 import cv2
 
 # Create variable that holds our image
-img = cv2.imread('../Camera_Assets/ChessBoard.jpeg')
+img = cv2.imread('Camera_Assets/ChessBoard.jpeg')
 
 # Convert image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
